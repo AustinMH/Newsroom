@@ -1,0 +1,171 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+ html, body {
+background: #f2f2f2; 
+font-family: 'Lato', sans-serif; 
+font-weight: 300; 
+} 
+
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Montserrat', sans-serif; 
+font-weight: 400;
+ } 
+
+h2, p {
+  color:white;
+}
+
+h2 {
+  font-size:60px;
+}
+
+p {
+ 	font-size:20px; 
+}
+
+ul {
+ 	list-style:none; 
+}
+
+span {
+  border-bottom: 5px solid #1a77ff;
+}
+
+/** Header **/
+.header {
+  background-color:black;
+  height:100px;
+}
+
+.header img {
+ 	width:200px; 
+  margin-top:25px;
+}
+
+.form {
+  margin-top:35px;
+ 	float:right; 
+}
+
+.search-form input {
+  width:200px;
+  height:30px;
+ 	background:transparent; 
+  border:none;
+  border-bottom: 1px solid white;
+  margin-right:10px;
+  color:white;
+}
+
+.search-form input:hover {
+  border-bottom: 1px solid #1a77ff;
+}
+
+.search-form input:focus {
+  outline:0px;
+}
+
+.search-form button {
+  text-align:center;
+  height:30px;
+  background:transparent;
+  border:none;
+  border-bottom: 1px solid #1a77ff;
+  color:white;
+}
+
+/** Nav **/
+.menu {
+ 	background-color:#152230; 
+}
+
+.active {
+ 	background-color:#1a77ff; 
+}
+
+.menu ul.nav li {
+  display: inline-block;
+}
+
+.menu ul.nav li a {
+  color:white;
+}
+
+.menu ul.nav li a:hover {
+	background-color:#1a77ff;
+}
+
+/** Main **/
+.main {
+ 	background-image:url('https://s3.amazonaws.com/codecademy-content/projects/newsroom/bass-bg.jpg'); 
+  height:500px;
+  background-size:cover;
+  background-position:center center;
+  background-repeat:no-repeat;
+  padding:50px;
+}
+
+/** Supporting **/
+.supporting .row {
+  margin:50px 0px;
+}
+
+.supporting p {
+ 	color:gray; 
+  font-size:15px;
+}
+
+.big-box {
+	background-color:white;
+  padding:20px 40px 40px 40px;
+}
+
+.little-box {
+  background-color:#152230;
+ 	padding:20px 40px 40px 40px;
+}
+
+.supporting .container .row .little-box {
+ 	 color:white;
+}
+
+.supporting .row ul {
+  padding:0px;
+}
+
+.supporting .row li {
+ 	margin: 0 0 20px 0; 
+}
+
+.supporting .row .col-md-12 {
+ 	margin:0;
+  padding:0;
+}
+.col-md-12 img {
+ 	width:100%; 
+}
+
+/** Footer **/
+.footer {
+ 	background-color:black;
+  padding:40px 0px;
+}
+
+.footer a {
+  color:white;
+ 	text-decoration:none; 
+}
+
+
+
+.footer li {
+  display:inline;
+  margin-right:10px;
+}
+
+.footer p {
+ 	font-size:14px; 
+}
